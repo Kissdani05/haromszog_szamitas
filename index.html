@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="vilagos">
+        <div class="elemek">
+            
+            <div class="szoveg">
+                <h1>Derékszögű háromszög oldalhossza</h1>
+            </div>
+                <div>
+                    <label>egyik befogó:</label>
+                    <input type="number" id="befogo1" value="0">
+                </div>
+                <div>
+                    <label>másik befogó:</label>
+                    <input type="number" id="befogo2" value="0">
+                </div>
+                <div class="block">
+                    <label>átfogó:</label>
+                    <input type="number" id="atfogo" value="0">
+                </div>
+                <hr/>
+            <div class="sotet"></div>
+            <button onclick="megszerkesztheto()" id="megszerkeszt">Megszerkeszthető?</button>
+            <button onclick="veletlen()" id="random">Véletlen oldalhosszak 10...100-ból</button>
+            <button onclick="kiszamitas()" id="szamit">Átfogó kiszámítása</button>
+            <p><span id="result"></span></p>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
